@@ -68,8 +68,9 @@ As you examine the data, you begin to suspect that the dataset is fake. Maybe yo
 1. Import the SQL database into Pandas. (Yes, you could read the CSVs directly in Pandas, but you are, after all, trying to prove your technical mettle.) This step may require some research. Feel free to use the following code to get started. Be sure to make any necessary modifications for your username, password, host, port, and database name:
 
 from sqlalchemy import create_engine
-engine = create_engine('postgresql://localhost:5432/<your_db_name>')
-connection = engine.connect()
+- engine = create_engine('postgresql://localhost:5432/<your_db_name>')
+- connection = engine.connect()
+
 
 Be sure to hide your password!
 

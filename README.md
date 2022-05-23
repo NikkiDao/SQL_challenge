@@ -5,13 +5,13 @@ It is a beautiful spring day, and it is two weeks since you have been hired as a
 In this assignment, you will design the tables to hold data in the CSVs, import the CSVs into a SQL database, and answer questions about the data. In other words, you will perform data modeling, data engineering, and data analysis.
 
 
-Instructions
+## Instructions
 This assignment is divided into three parts: data modeling, data engineering, and data analysis.
 
-Data Modeling
+## Data Modeling
 Inspect the CSVs and sketch out an ERD of the tables. 
 
-Data Engineering
+## Data Engineering
 
 
 - Use the provided information to create a table schema for each of the six CSV files. Remember to specify data types, primary keys, foreign keys, and other constraints.
@@ -32,7 +32,7 @@ Hint: To avoid errors, be sure to import the data in the same order that the tab
 
 
 
-Data Analysis
+## Data Analysis
 Once you have a complete database, perform these steps:
 
 
@@ -61,7 +61,7 @@ Once you have a complete database, perform these steps:
 
 
 
-Bonus (Optional)
+## Bonus (Optional)
 As you examine the data, you begin to suspect that the dataset is fake. Maybe your boss gave you spurious data in order to test the data engineering skills of a new employee? To confirm your hunch, you decide to create a visualization of the data to present to your boss. Follow these steps:
 
 
